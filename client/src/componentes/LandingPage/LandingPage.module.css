@@ -1,0 +1,77 @@
+    .container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+    .img_background{
+        background-image: url('https://images-na.ssl-images-amazon.com/images/I/71L3XoDaAJL.png');
+        width: 113%;
+        height: 113%;
+        position:absolute;
+        
+        
+    }
+    
+    .buttonContainer {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 300px;
+        height: 70px;
+        
+        
+        
+    }
+    
+    .link {
+        
+        text-decoration: none;
+    }
+    
+    .btn { 
+        font-family:'Times New Roman', Times, serif sans-serif Times, serif;
+        width: 6em;
+        height: 2.2em;
+        background: rgb(31, 31, 31);
+        color: white;
+        border: none;
+        border-radius: 0.625em;
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border: 1px solid rgb(3, 152, 197);
+        
+    }
+    
+    .btn:hover {
+        color: black;
+    }
+    
+    .btn:after {
+        content:"";
+        background: white;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.6s;
+       
+        
+    }
+    
+    .btn:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.6s;
+        transition: all 0.5s;
+       
+        
+    }

@@ -1,0 +1,41 @@
+.containerNav{
+    display:flex;
+    justify-content:center;
+    
+}
+.homelogo{
+    height: 100%;
+    background-position-x: -100px;
+    background-image: url('https://pbs.twimg.com/media/EZjrWHrWAAEWD9D.jpg:large');
+}
+
+
+.buttonCreate{
+    background-color: rgb(243,40,40);
+    height: 25px;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(1, 10, 12);
+    width: 150px;
+}
+
+.containerCard{
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2em;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+    border-radius: 1em;
+    background: rgba(238, 235, 235, 0.829);
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+.linkHome{
+    text-decoration: none;
+}

@@ -1,0 +1,108 @@
+    .paginationContainer {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .paginationClick {
+        width: 22px;
+        height: 22px;
+        margin: 35px 10px;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid rgb(15, 15, 15);
+        color: black;
+        filter: drop-shadow(2px 2px 2px #ffffff);
+    }
+    
+    .paginationClick:hover {
+        background-color: #17c3b2;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    
+    .buttonNext {
+        margin-right: 15px;
+        position: center;
+        background: none;
+        border: solid 1px #17c3b2;
+        color: #ffffff;
+        transition: linear 250ms;
+        width: 50px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .buttonNext:is(:hover, :focus) {
+        color: #fff;
+    }
+    
+    .buttonNext::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        z-index: -1;
+        background-color: #13ecda;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: linear 250ms;
+    }
+    
+    .buttonNext:is(:hover, :focus)::after {
+        transform: scale(1);
+    }
+    
+    .buttonPrevious {
+        margin-top: 1px;
+        position: relative;
+        background: none;
+        border: solid 1px #17c3b2;
+        color: #ffffff;
+        transition: linear 250ms;
+        width: 50px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .buttonPrevious:is(:hover, :focus) {
+        color: #000;
+    }
+    
+    .buttonPrevious::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        z-index: -1;
+        background-color: #13ecda;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: linear 250ms;
+    }
+    
+    .buttonPrevious:is(:hover, :focus)::after {
+        transform: scale(1);
+    }
+    
+    .active {
+        width: 22px;
+        height: 22px;
+        margin: 35px 10px;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid #009ffc;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        filter: drop-shadow(2px 2px 2px #ffffff);
+    }

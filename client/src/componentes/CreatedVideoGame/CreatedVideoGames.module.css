@@ -1,0 +1,118 @@
+.containerForm{
+    color:#000532;
+    width: 100vw;
+    height:100vh;
+    line-height:0pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerFormInside{
+    width:30%;
+    height:100vh;
+    border-radius: 2px;
+    border: 2px white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textForm{
+    font-size:small;
+    border: #000532;
+    color:#000532;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.inputForm{
+    width:230px;
+    height:15px;
+    background-color:white;
+    border: 2px solid black;
+    color:rgb(15, 15, 15);
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.inputForm:focus{
+    color:burlywood;
+    background-color: #000532;
+    outline-color: orange;
+}
+.errorText{
+    font-size: 12px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttonBack{
+    left:0;
+    position:absolute;
+}
+.inputFormDescription{
+    width: 230px;
+    height:60px;
+    resize:none;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.selectForm{
+    background-color: rgb(243,40,40);
+    height: 25px;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(1, 10, 12);
+    width: 150px;
+}
+.selectForm:focus{
+    border: 1px solid rgb(243,40,40);
+    outline-color: black;
+}
+
+.buttonForm{
+    cursor:pointer;
+    background-color:orange;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonForm:hover{
+    transition: all 0.3s ease-in-out;
+}
+.buttonCreate{
+    background-color: rgb(243,40,40);
+    height: 25px;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(1, 10, 12);
+    width: 150px;
+}
+.ButtonBack{
+cursor: pointer;
+margin: 15px, 0px, 0px, 15px;
+font-size: 16px;
+height: 35px;
+border: 0px;
+color:#000532;
+border-radius: 50px;
+}
+.containertitle{
+    margin-top: 50px;
+}

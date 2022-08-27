@@ -1,0 +1,39 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 150px;
+    border: 1px solid rgb(14, 153, 245);
+    background-color: rgb(27, 27, 27);
+    margin: 35px 30px 0 30px;
+    filter: drop-shadow(4px 4px 5px black);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cardContainer:hover {
+    filter: drop-shadow(5px 5px 5px #03a9eb);
+    transition: all 0.5s ease-out ;
+    background-color: #03a9eb1e;
+}
+
+.titleCard {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: black;
+}
+
+.imgCard {
+    width: 250px;
+    border-radius: 6px;
+    height: 280px;
+}
+
+.genreCard,
+.ratingCard {
+    font-size: 1rem;
+    color:black;
+    text-align:justify;
+}

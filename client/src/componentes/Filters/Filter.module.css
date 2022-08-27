@@ -1,0 +1,32 @@
+.filtersContainer{
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.selectFilter{
+    background-color: rgb(243, 40, 40);
+    height: 25px;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(1, 10, 12);
+    width: 150px;
+
+}
+
+.buttonReset{
+    background-color: rgb(243,40,40);
+    height: 25px;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(1, 10, 12);
+    width: 150px;
+}
